@@ -41,7 +41,7 @@
          </div>
          <!--end of search-->
       </div>
-      <div>
+      <header role="banner" aria-label="header section">
          <!-- start of header-->
          <div class="app-bar">
             <div class="container">
@@ -53,7 +53,7 @@
                </div>
             </div>
          </div>
-         <div id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
+         <nav role="navigation" aria-label="main navigation" id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
             class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
             typeof="SiteNavigationElement">
             <div class="pnl-strt container nvbar">
@@ -73,11 +73,11 @@
                   </ul>
                </div>
             </div>
-         </div>
+		</nav>
          <!-- end of main navigation-->
-      </div>
+		</header>
       <!-- end of header-->
-      <main property="mainContentOfPage" class="container">
+      <main role="main" aria-label="main content" property="mainContentOfPage" class="container">
          <h1>Welcome</h1>
          <p>Content A here</p>
          <div class="row">
@@ -109,7 +109,7 @@
             </dl>
          </div>
       </main>
-      <div id="wb-info" class=" wb-navcurr-inited">
+      <footer role="footer" aria-label="footer section" id="wb-info" class=" wb-navcurr-inited">
          <div class="gc-sub-footer">
             <div class="container d-flex align-items-center">
                <div>
@@ -132,7 +132,7 @@
                </div>
             </div>
          </div>
-      </div>
+		</footer>
       <!-- end of footer-->
       <script>
          var defFooter = document.getElementById("def-footer");
