@@ -127,7 +127,6 @@
         <div class="container">
           <div class="row">
             <section class="col-xs-12">
-              <h2 class="wb-inv">Name of Web application</h2>
               <a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
             </section>
           </div>
@@ -145,63 +144,48 @@
         <div class="pnl-strt container nvbar">
           <h2>Topics menu</h2>
           <div class="row">
-            <ul role="menubar" class="list-inline menu">
-              <li>
+            <ul role="menu" class="list-inline menu">
+              <li aria-posinset="1" aria-setsize="7" role="menuitem">
                 <a
                   class="item"
                   href="index-en.html"
                   tabindex="0"
-                  aria-posinset="1"
-                  aria-setsize="7"
-                  role="menuitem"
                   aria-label="Home Area"
                   >Home</a
                 >
               </li>
-              <li>
+              <li aria-setsize="7" role="menuitem" role="" menuitem>
                 <a
                   class="item"
                   href="internet-en.html"
-                  tabindex="-1"
-                  aria-posinset="2"
-                  aria-setsize="7"
-                  role="menuitem"
+                  tabindex="0"
                   aria-label="Buying Area"
                   >Buying</a
                 >
               </li>
-              <li>
+              <li aria-posinset="3" aria-setsize="7" role="menuitem">
                 <a
                   class="item"
                   href="intranet-en.html"
-                  tabindex="-1"
-                  aria-posinset="3"
-                  aria-setsize="7"
-                  role="menuitem"
+                  tabindex="0"
                   aria-label="Selling Area"
                   >Selling</a
                 >
               </li>
-              <li>
+              <li aria-posinset="6" aria-setsize="7" role="menuitem">
                 <a
                   class="item"
                   href="faq-en.html"
-                  tabindex="-1"
-                  aria-posinset="6"
-                  aria-setsize="7"
-                  role="menuitem"
                   aria-label="FAQs Area"
+                  tabindex="0"
                   >FAQs</a
                 >
               </li>
-              <li>
+              <li aria-posinset="7" aria-setsize="7" role="menuitem">
                 <a
                   class="item"
                   href="contact-en.html"
-                  tabindex="-1"
-                  aria-posinset="7"
-                  aria-setsize="7"
-                  role="menuitem"
+                  tabindex="0"
                   aria-label="Contact Area"
                   >Contact us</a
                 >
@@ -220,7 +204,7 @@
       class="container"
     >
       <h1>Welcome</h1>
-      <section role="region">
+      <section role="region" aria-label="Primary content">
         <h2>Hi/Max Real Estate & Houses</h2>
         <p>
           Buying or selling a home is likely the largest and most important
@@ -234,7 +218,7 @@
         </p>
       </section>
       <div class="row">
-        <section role="region">
+        <section role="region" aria-label="Side content">
           <div class="col-md-4 pull-right">
             <h2>Related resources</h2>
             <p>
@@ -263,7 +247,7 @@
             </ul>
           </div>
         </section>
-        <section role="region">
+        <section role="region" aria-label="Main content">
           <div class="col-md-8">
             <h2>Why choosing HI/Max</h2>
             <p>
@@ -322,11 +306,11 @@
           </div>
         </section>
       </div>
-      <section role="region">
+      <section role="region" aria-label="Bottom content">
         <h2>More Resources on How to Choose the Right Agent</h2>
         <div class="row">
           <div class="col-md-4">
-            <img src="1.png" alt="Red house with a for sale sign" /><br />
+            <img src="1.png" alt="" /><br />
             <a href="http://www.google.ca/" target="_blank"
               >What Are The Risks of Selling a Home Yourself?
               <span class="sr-only">(Opens in a new window)</span></a
@@ -353,10 +337,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <img
-              src="3.png"
-              alt="Real state agent placing a for sale sign"
-            /><br />
+            <img src="3.png" alt="" /><br />
             <a href="http://www.google.ca/" target="_blank"
               >8 Reasons to Hire an Agent When Selling Your Home
               <span class="sr-only">(Opens in a new window)</span></a
@@ -376,12 +357,7 @@
         </dl>
       </div>
     </main>
-    <footer
-      role="footer"
-      aria-label="footer section"
-      id="wb-info"
-      class="wb-navcurr-inited"
-    >
+    <footer aria-label="footer section" id="wb-info" class="wb-navcurr-inited">
       <div class="gc-sub-footer">
         <div class="container d-flex align-items-center">
           <div>
